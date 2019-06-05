@@ -1,0 +1,1 @@
+This folder contain screen shots for the project
