@@ -8,7 +8,7 @@ async def main():
 
     await page.setViewport({'width': 1280, 'height': 800})
     await page.goto('https://amazon.com')
-    await page.screenshot({'path':'Imgs/test.png','fullPage':True})
+    await page.screenshot({'path':'ScreenShots/test.png','fullPage':True})
     await browser.close()
 
 if __name__ == '__main__':
